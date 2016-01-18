@@ -42,11 +42,16 @@ Run all testing files in tests/ folder with color highlight
 class ExampleTest extends PHPUnit_Framework_TestCase
 {
     /** @test */
-    function test_feature()
+    public function test_feature()
     {
-        //
+        // arrange
+        
+        // act
+        
+        // assert
     }
 }
 ```
+PHPUnit Assertions (https://phpunit.de/manual/current/en/appendixes.assertions.html)
 
 Visit [PHPUnit Manual](https://phpunit.de/manual/current/en/) for more information.
